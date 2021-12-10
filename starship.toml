@@ -1,0 +1,17 @@
+# https://starship.rs/
+# ~/.config/starship.toml
+
+[directory]
+truncation_length = 8
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = "🌱 "
+truncation_length = 10
+truncation_symbol = ""
+
+[package]
+format = "via [🎁 $version](208 bold) "
+
+[nodejs]
+format = "via [🤖 $version](bold green) "
