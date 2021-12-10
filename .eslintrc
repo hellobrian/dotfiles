@@ -1,13 +1,16 @@
 {
-  root: true,
-  env: {
-    browser: true,
-    es6: true
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
   },
-  ecmaFeatures: {
-    modules: true
-  },
-  extends: [
-    "airbnb/base"
-  ]
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off"
+  }
 }
