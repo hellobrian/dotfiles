@@ -17,3 +17,5 @@ yarn add eslint eslint-config-prettier eslint-plugin-react eslint-plugin-react-h
 ### VIA Keyboard permissions for Linux
 
 Add 99-via-keyboard.rules file to /etc/udev/rules.d/99-via-keyboard.rules in order to configure VIA keyboards with https://www.usevia.app/
+
+test commit
