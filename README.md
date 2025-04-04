@@ -21,3 +21,5 @@ Add 99-via-keyboard.rules file to /etc/udev/rules.d/99-via-keyboard.rules in ord
 test another signed commit with alias
 
 will this still be verified?
+
+do it old school and see if password is needed
