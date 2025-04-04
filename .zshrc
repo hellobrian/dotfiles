@@ -37,6 +37,7 @@ load-nvmrc
 alias ga="git add"
 alias gb="git branch"
 alias gc="git commit"
+alias gcs="git commit -S" # gpg key needed to sign commits so they're verified in githubd
 alias gco="git checkout"
 alias gd="git diff -w"
 alias gds="git diff -w --staged"
